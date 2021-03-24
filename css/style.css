@@ -1,0 +1,583 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	background-color: #fbfcfc;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover{
+	text-decoration: none ;
+}
+
+ul{
+	margin-bottom: 0px;
+}
+
+/**********************Psd code starts*******************/
+/**********************header code starts*******************/
+.header-section{
+	width: 100%;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.menu-section .bg-light{
+	background: transparent !important;
+}
+.header-section .menu-section .bg-light h5{
+	font-size: 25px;
+    font-weight: 500;
+}
+.header-section .menu-section .bg-light h5 span{
+	color: #2870db;
+}
+.menu-section .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 60px;
+    padding-bottom: 0px;
+}
+.menu-section .navbar-light .navbar-nav .nav-link:hover{
+	border-bottom: 2px solid #fff;
+}
+.menu-section .btn-info {
+    color: #14215e !important;
+    background: #fff;
+    border-radius: 10px;
+    padding: 5px 30px !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 15px;
+    transition: 1s;
+    border: 0px;
+}
+.menu-section .btn-info:hover{
+	color: #fff !important;
+	background: transparent;
+	border: 1px solid #fff;
+}
+.banner-section{
+	width: 100%;
+	padding: 130px 0px;
+}
+.banner-inner{
+	width: 100%;
+	text-align: left;
+	padding-bottom: 280px;
+}
+.banner-inner h1{
+	color: #1c2056;
+    font-size: 41px;
+    line-height: 51px;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+.banner-inner p{
+	color: #5a6e79;
+    margin-bottom: 25px;
+}
+.banner-inner a{
+    color: #fff;
+    background: #2870db;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.banner-inner a:hover{
+	color: #2870db !important;
+    background: transparent;
+    border: 1px solid #2870db ;
+    transition: 1s;
+}
+.banner-inner .fa{
+    margin-left: 12px;
+}
+/**********************header code ends*******************/
+/**********************feature code starts*******************/
+.feature{
+	width: 100%;
+	background: url("../images/featurebg.png") center bottom no-repeat ;
+	background-size: contain;
+	padding: 80px 0px;
+}
+
+.feature .title{
+	 padding: 60px 0px;
+	 text-align: center;
+}
+.feature .title h1{
+	font-size: 40px;
+}
+.feature img{
+	width: 90px;
+    margin: 50px 120px;
+}
+.feature .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.feature .card-body {
+    padding: 2.5rem;
+}
+.feature .card h5{
+	font-size: 16px;
+    font-weight: 600;
+}
+.feature .card p{
+	font-size: 12px;
+	color: #546e7a;
+}
+.feature .button{
+   transform: translateY(262px);
+}
+.feature .button a{
+	color: #fff;
+    background: #2870db;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.feature .button a:hover{
+	color: #2870db !important;
+    background: transparent;
+    border: 1px solid #2870db ;
+    transition: 1s;
+}
+/**********************feature code ends*******************/
+/**********************Member code stars*******************/
+.member{
+	width: 100%;
+	text-align: center;
+	padding: 80px 0px;
+}
+.member .title{
+	    padding: 60px 0px;
+}
+.member .title h1{
+	font-size: 40px;
+}
+.member h5{
+	color: #1a56a3;
+	    font-weight: 700;
+}
+
+
+/**********************Member code ends*******************/
+/**********************Trail code starts*******************/
+.trail{
+	width: 100%;
+	background: url("../images/trailbg.png") center top no-repeat;
+	background-size: contain;
+	padding: 80px 0px;
+}
+.trail .title{
+	 padding: 60px 0px;
+	 text-align: center;
+}
+.trail .title h1{
+	font-size: 40px;
+}
+.trail .card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.trail .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 2.25rem;
+}
+.trail .card-body h5{
+	font-size: 21px;
+    line-height: 31px;
+    font-weight: 700;
+}
+.trail .card-body p{
+	color: #546e7a;
+}
+.trail .card-body a{
+    color: #508be2;
+    font-size: 14px;
+    line-height: 24px;
+}
+.trail .card-img, .card-img-top {
+    border-top-left-radius: calc(1rem - 1px);
+    border-top-right-radius: calc(1rem - 1px);
+}
+/**********************Trail code ends*******************/
+/**********************footer code strts*******************/
+.footer-section{
+    width: 100%;
+    background: url(../images/footerbg.png) center bottom no-repeat;
+    background-size: contain;
+    padding: 22px 0px;
+}
+.footer-inner{
+	 width: 100%;
+    padding: 170px 0px;
+
+}
+.footer-section .card{
+    width: 100%;
+    /*background-color: transparent;*/
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 1.25rem;
+    border: none;
+}
+.footer-section .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 4.25rem;
+}
+.footer-section .form-control {
+	display: block;
+    width: 60%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 22px 25px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin: 30px auto;
+}
+.footer-section .card-title {
+    margin-bottom: 2.75rem;
+    color: white;
+}
+.footer-section .card-img, .card-img-bottom {
+    border-bottom-right-radius: calc(1.25rem - 1px);
+    border-bottom-left-radius: calc(1.25rem - 1px);
+}
+.footer-section .card-img, .card-img-top {
+    border-top-left-radius: calc(1.25rem - 1px);
+    border-top-right-radius: calc(1.25rem - 1px);
+}
+.footer-section .button{
+	transform: translateY(40px);
+}
+.footer-section .button a{
+	color: #fff;
+    background: #2870db;
+    border-radius: 30px;
+    padding: 15px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+    				0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.footer-section .button a:hover{
+	color: #fff !important;
+    background: transparent;
+    border: 1px solid #fff ;
+    transition: 1s;
+}
+.footer-section h5{
+	padding-top: 50px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.footer-section ul{
+	display: block;
+	color: #fff;
+}
+.footer-section ul li{
+	list-style: none;
+	font-size: 12px;
+}
+.footer-section p{
+	color: #fff;
+	font-size: 12px;
+}
+.footer-section .social-icons{
+	padding: 20px 0px 50px;
+}
+.footer-section .social-icons ul{
+	display: block;
+}
+.footer-section .social-icons ul li{
+	display: inline-block;
+	list-style: none;
+}
+.footer-section .social-icons ul li a{
+	text-decoration: none;
+    font-size: 16px;
+    margin-right: 20px;
+}
+.footer-section .social-icons .fa{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+/**********************footer code ends*******************/
+/**********************Media queries code starts*******************/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+ 		/**********************header code starts*******************/
+ 		.menu-section .navbar-light .navbar-nav .nav-link {
+ 			color: #2870db;
+ 			font-weight: 700;
+ 			margin-left: 0px;
+ 			padding-bottom: 0px;
+ 			text-align: center;
+ 		}
+ 		.menu-section .navbar-light .navbar-nav .btn-info{
+ 			    color: #2870db !important;
+ 		}
+ 		.banner-section{
+ 			width: 100%;
+ 			padding: 54px 0px;
+ 		}
+ 		.banner-inner{
+ 			width: 100%;
+ 			text-align: left;
+ 			padding-bottom: 60px;
+ 		}
+ 		.banner-inner h1{
+ 			color: #1c2056;
+ 			font-size: 34px;
+ 			line-height: 44px;
+ 			font-weight: 900;
+ 			margin-bottom: 25px;
+ 		}
+ 		.banner-inner p{
+ 			color: #5a6e79;
+ 			margin-bottom: 54px;
+ 		}
+ 		.banner-inner a{
+ 		    color: #fff;
+ 		    background: #2870db;
+ 		    border-radius: 30px;
+ 		    padding: 15px 40px;
+ 		    font-size: 14px;
+ 		    font-weight: 400;
+ 		}
+ 		/**********************header code ends*******************/
+ 		/**********************feature code starts*******************/
+ 		.feature {
+ 		    width: 100%;
+ 		    background: url(../images/featurebg.png) center bottom no-repeat;
+ 		    background-size: cover;
+ 		    padding: 0px;
+ 		}
+        .feature .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            background-color: #fff;
+            background-clip: border-box;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: auto !important;
+        }
+ 		.feature .title{
+ 			 padding: 20px 0px;
+ 			 text-align: center;
+ 		}
+ 		.feature .title h1{
+ 			font-size: 20px;
+    		font-weight: 900;
+ 		}
+ 		.feature .button{
+ 			text-align: center;
+		}
+        .feature .button{
+           transform: translateY(100px);
+        }
+ 		/**********************feature code ends*******************/
+ 		/**********************Member code stars*******************/
+ 		.member{
+ 			width: 100%;
+ 			text-align: center;
+ 			padding: 80px 0px;
+ 		}
+ 		.member .title{
+ 			padding:85px 0px 20px;
+ 			text-align: center;
+ 		}
+ 		.member .title h1{
+ 			font-size: 20px;
+    		font-weight: 900;
+ 		}
+ 		.member p{
+		    font-size: 14px;
+		    font-weight: 700;
+		}
+ 		.member h5{
+ 			color: #1a56a3;
+ 			font-weight: 900;
+ 		}
+ 		.member .number{
+ 			padding-bottom: 30px;
+ 		}
+
+ 		/**********************Member code ends*******************/
+
+ 		/**********************Trail code starts*******************/
+ 		.trail{
+ 			width: 100%;
+ 			background: url("../images/trailbg.png") center top no-repeat;
+ 			background-size:cover;
+ 			padding:0px;
+ 		}
+ 		.trail .title{
+ 			padding:85px 0px 20px;
+ 			text-align: center;
+ 		}
+ 		.trail .title h1{
+			font-size: 20px;
+	   		font-weight: 900;
+ 		}
+ 		/**********************Trail code ends*******************/
+ 		/**********************footer code strts*******************/
+ 		.footer-section{
+		    width: 100%;
+		    background: url(../images/footerbg.png) center bottom no-repeat;
+		    background-size: cover;
+		    padding: 0px;
+ 		}
+ 		.footer-inner{
+ 			width: 100%;
+ 			padding: 50px 0px;
+ 		}
+ 		.footer-section .card{
+ 		    width: 100%;
+ 		    text-align: center;
+ 		    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+ 		    			0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ 		    border-radius: 1.25rem;
+ 		    border: none;
+ 		    padding: 146px;
+	        background: transparent;
+ 		}
+ 		.footer-section .card-body {
+ 		    -ms-flex: 1 1 auto;
+ 		    flex: 1 1 auto;
+ 		    min-height: 1px;
+ 		    padding: 0rem;
+ 		}
+ 		.footer-section .form-control {
+ 			display: block;
+ 		    width: 86%;
+ 		    height: calc(1.5em + .75rem + 2px);
+ 		    padding: 22px 25px;
+ 		    font-size: 1rem;
+ 		    font-weight: 400;
+ 		    line-height: 1.5;
+ 		    color: #495057;
+ 		    background-color: #fff;
+ 		    background-clip: padding-box;
+ 		    border: 1px solid #ced4da;
+ 		    border-radius: 10px;
+ 		    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+ 		    margin: 0px auto;
+ 		}
+ 		.footer-section .card-title {
+            margin-bottom: 0px;
+            color: white;
+            padding: 18px;
+            font-size: 12px;
+ 		}
+ 		.footer-section .button{
+ 			transform: translateY(10px);
+ 		}
+ 		.footer-section .social-icons{
+ 			padding: 20px 0px 50px;
+ 			text-align: center;
+ 		}
+ 		/**********************footer code ends*******************/
+        .card{
+            width: auto;
+        }
+}
+/**********************Media queries code ends*******************/
